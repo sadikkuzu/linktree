@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.data.metadata.title }}</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" href="{{ site.data.metadata.profile-pic }}" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+
+    <a id="profilePicture" href="#popup">
+        <img src="{{ site.data.metadata.profile-pic }}" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="{{ site.data.metadata.profile-pic }}" target="_blank">
+                    <img src="{{ site.data.metadata.profile-pic }}" alt="Profile Picture">
+                </a>
+            </div>
+            <div class="popup-quote">
+                {{ site.data.metadata.popup-quote }}
+            </div>
+
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
+    </div>
+
+    <div id="userName">
+        {{ site.data.metadata.username }}
+    </div>
+
+    {% include links.html %}
+
+    <div id="hashtag">
+        {{ site.data.metadata.hashtag }}
+    </div>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        {{ content }}
+    </main>
+
+    {% include ga.html %}
+
+</body>
+
+</html>

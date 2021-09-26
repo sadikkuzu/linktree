@@ -1,0 +1,18 @@
+- name: GitHub
+  link: https://github.com/sadikkuzu
+  fa: fab fa-github
+- name: Linkedin
+  link: https://linkedin.com/in/sadikkuzu
+  fa: fab fa-linkedin
+- name: Twitter
+  link: https://twitter.com/sadikkuzu_mba
+  fa: fab fa-twitter
+- name: Genus Class Number One Problem
+  link: https://youtu.be/ZGsG8otZjhc
+  fa: fab fa-youtube
+- name: Instagram
+  link: https://instagram.com/reel/CTeo_ljg5Mw/
+  fa: fab fa-instagram
+- name: Home
+  link: https://sadikkuzu.com
+  fa: fas fa-home

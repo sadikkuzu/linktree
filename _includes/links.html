@@ -1,0 +1,6 @@
+<div id="links">
+    {% for item in site.data.links %}
+    <a class="link" href="{{ item.link }}" target="_blank">
+        <i class="{{ item.fa }}">&nbsp;</i>{{ item.name }}</a>
+    {% endfor %}
+</div>

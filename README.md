@@ -3,13 +3,13 @@
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JohnEmerson1406/linktree?color=%234caf50">
-  
+
   <a href="https://www.linkedin.com/in/johnemerson1406/">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-John%20Emerson-%234caf50">
   </a>
-  
+
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/JohnEmerson1406/myanimelist-profile?color=%234caf50">
-  
+
   <a href="https://github.com/JohnEmerson1406/linktree/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JohnEmerson1406/linktree?color=%234caf50">
   </a>
@@ -43,8 +43,9 @@
 
 ## :star2: Extras
 - [Shields.io](https://shields.io/)
-- [Github Emojis](https://gist.github.com/rxaviers/7360908)
+- [GitHub Emojis](https://gist.github.com/rxaviers/7360908)
 
 ---
 
 Made with ♥ by John Emerson :wave: [Get in touch](https://johnemerson1406.github.io/linktree)
+Developed by Sadık Kuzu
