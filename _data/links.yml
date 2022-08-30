@@ -10,6 +10,9 @@
 - name: Mocha
   link: https://www.instagram.com/reel/Cfyt-P1jv18/?igshid=YmMyMTA2M2Y=
   fa: fab fa-instagram
+- name: sawubona
+  link: https://open.spotify.com/playlist/1M4W27jkNna3ZZZAWL5bpI?si=e8f408ea5bc147d8
+  fa: fab fa-spotify
 - name: Aloha BOUN
   link: https://moodle.boun.edu.tr/blog/index.php?entryid=12860
   fa: fas fa-university
