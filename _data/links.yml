@@ -1,15 +1,12 @@
+- name: Donate For Disasters - AHBAP
+  ink: https://ahbap.org/disasters-turkey
+  fa: fas fa-hand-holding-usd
+- name: Donate For Disasters - AKUT
+  link: https://www.akut.org.tr/en/donation
+  fa: fas fa-donate
 - name: Charity Run - TEV
   link: https://ipk.adimadim.org/kampanya/CC87492
   fa: fas fa-running
-- name: Mocha
-  link: https://www.instagram.com/reel/Cfyt-P1jv18/?igshid=YmMyMTA2M2Y=
-  fa: fas fa-dog
-- name: breeze
-  link: https://open.spotify.com/playlist/5D6cn6x3SfALIyduv2We1y?si=692008cf85b54125
-  fa: fab fa-spotify
-- name: sawubona
-  link: https://open.spotify.com/playlist/1M4W27jkNna3ZZZAWL5bpI?si=e8f408ea5bc147d8
-  fa: fab fa-spotify
 - name: GitHub
   link: https://github.com/sadikkuzu
   fa: fab fa-github
@@ -22,12 +19,21 @@
 - name: Stack Overflow
   link: https://stackoverflow.com/users/7030591/sadik-kuzu
   fa: fab fa-stack-overflow
-- name: Aloha BOUN
-  link: https://moodle.boun.edu.tr/blog/index.php?entryid=12860
-  fa: fas fa-university
-- name: Instagram
-  link: https://instagram.com/reel/CTeo_ljg5Mw/
-  fa: fab fa-instagram
+- name: Mocha
+  link: https://www.instagram.com/reel/Cfyt-P1jv18/?igshid=YmMyMTA2M2Y=
+  fa: fas fa-dog
+# - name: Aloha BOUN
+#   link: https://moodle.boun.edu.tr/blog/index.php?entryid=12860
+#   fa: fas fa-university
+# - name: Instagram
+#   link: https://instagram.com/reel/CTeo_ljg5Mw/
+#   fa: fab fa-instagram
+- name: breeze
+  link: https://open.spotify.com/playlist/5D6cn6x3SfALIyduv2We1y?si=692008cf85b54125
+  fa: fab fa-spotify
+- name: sawubona
+  link: https://open.spotify.com/playlist/1M4W27jkNna3ZZZAWL5bpI?si=e8f408ea5bc147d8
+  fa: fab fa-spotify
 - name: Home
   link: https://sadikkuzu.com
   fa: fas fa-home
