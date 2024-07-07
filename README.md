@@ -63,6 +63,17 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) file for mo
 
 ---
 
+## Local Deployment
+
+
+```shell
+docker-compose up --build -d
+```
+
+```
+http://localhost:4000/
+```
+
 ## :star2: Extras
 - [Shields.io](https://shields.io/)
 - [GitHub Emojis](https://gist.github.com/rxaviers/7360908)
