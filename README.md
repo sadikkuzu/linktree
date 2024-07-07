@@ -63,7 +63,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) file for mo
 
 ---
 
-## Local Deployment
+## :shipit: Local Deployment
 
 
 ```shell
