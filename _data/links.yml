@@ -25,6 +25,9 @@
 - name: sawubona
   link: https://open.spotify.com/playlist/1M4W27jkNna3ZZZAWL5bpI?si=e8f408ea5bc147d8
   fa: fab fa-spotify
+- name: goodreads
+  link: https://goodreads.com/sadikkuzu
+  fa: fab fa-goodreads
 - name: Charity Run - TEV
   link: https://ipk.adimadim.org/kampanya/CC87492
   fa: fas fa-running
