@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.data.metadata.title }}</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
     <link rel="icon" href="{{ site.data.metadata.profile-pic }}" type="image/x-icon" />
 </head>
 
 <body>
+    <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
-        <div id="stars1"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
     <a id="profilePicture" href="#popup">
         <img src="{{ site.data.metadata.profile-pic }}" alt="Profile Picture">
@@ -24,7 +26,7 @@
     <div class="overlay" id="popup">
         <div class="popup">
             <div class="popup-photo">
-                <a href="{{ site.data.metadata.profile-pic }}" target="_blank">
+                <a href="{{ site.data.metadata.linktree-url }}" target="_blank">
                     <img src="{{ site.data.metadata.profile-pic }}" alt="Profile Picture">
                 </a>
             </div>

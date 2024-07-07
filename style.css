@@ -3,7 +3,7 @@
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
-    --accentColor: #E6E6E6;
+    --accentColor: #FFF;
     --font: 'Karla', sans-serif;
     --delay: .3s;
 }
@@ -14,9 +14,13 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
+    /* background-image: url('https://bit.ly/3nFVqJh'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #profilePicture, #profilePicture img {
@@ -24,7 +28,7 @@ body {
     width: 96px;
     height: 96px;
     display: block;
-    margin: 35px auto 20px;
+    margin: 40px auto 20px;
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -95,6 +99,7 @@ body {
     background-size: 80%;
     animation: animate 7s linear var(--delay) infinite;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
@@ -161,7 +166,7 @@ body {
     width: auto;
     height: auto;
     margin: 56px;
-    background-color: var(--accentColor);
+    background-color: var(--bgColor);
     /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
@@ -173,7 +178,6 @@ body {
     position: flex;
     color: var(--accentColor);
     padding: 20px;
-    background-color: var(--bgColor);
     text-align: center;
     font-size: 1rem;
 }
