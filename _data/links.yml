@@ -4,9 +4,9 @@
 - name: GitHub
   link: https://github.com/sadikkuzu
   fa: fab fa-github
-- name: X
+- name: Twitter
   link: https://twitter.com/sadikkuzu_mba
-  fa: fab fa-twitter
+  fa: fab fa-x-twitter
 - name: Stack Overflow
   link: https://stackoverflow.com/users/7030591/sadik-kuzu
   fa: fab fa-stack-overflow
